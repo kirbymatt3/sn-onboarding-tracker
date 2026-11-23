@@ -4,13 +4,153 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-11-23 17:08:21</sys_created_on>
-            <sys_id>9260ae6cc3fc53105ca93fac05013193</sys_id>
+            <sys_created_on>2026-11-23 17:56:36</sys_created_on>
+            <sys_id>4d7ba6a4c37093105ca93fac050131ed</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_783736_onboard_0_equipment_request" sys_domain="global" view="Default view">da606e6cc3fc53105ca93fac050131dd</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-11-23 17:08:21</sys_updated_on>
+            <sys_updated_on>2026-11-23 17:56:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>new_hire</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-23 17:56:36</sys_created_on>
+            <sys_id>097ba6a4c37093105ca93fac050131ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_783736_onboard_0_equipment_request" sys_domain="global" view="Default view">da606e6cc3fc53105ca93fac050131dd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-23 17:56:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>role_profile</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-23 17:56:36</sys_created_on>
+            <sys_id>c17ba6a4c37093105ca93fac050131ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_783736_onboard_0_equipment_request" sys_domain="global" view="Default view">da606e6cc3fc53105ca93fac050131dd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-23 17:56:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_location</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-23 17:56:36</sys_created_on>
+            <sys_id>8d7ba6a4c37093105ca93fac050131ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_783736_onboard_0_equipment_request" sys_domain="global" view="Default view">da606e6cc3fc53105ca93fac050131dd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-23 17:56:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>shipping_address</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-23 17:56:36</sys_created_on>
+            <sys_id>497ba6a4c37093105ca93fac050131f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_783736_onboard_0_equipment_request" sys_domain="global" view="Default view">da606e6cc3fc53105ca93fac050131dd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-23 17:56:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-23 17:56:36</sys_created_on>
+            <sys_id>057ba6a4c37093105ca93fac050131f1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_783736_onboard_0_equipment_request" sys_domain="global" view="Default view">da606e6cc3fc53105ca93fac050131dd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-23 17:56:36</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-23 17:56:36</sys_created_on>
+            <sys_id>cd7ba6a4c37093105ca93fac050131f1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_783736_onboard_0_equipment_request" sys_domain="global" view="Default view">da606e6cc3fc53105ca93fac050131dd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-23 17:56:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>priority</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-23 17:56:36</sys_created_on>
+            <sys_id>897ba6a4c37093105ca93fac050131f2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_783736_onboard_0_equipment_request" sys_domain="global" view="Default view">da606e6cc3fc53105ca93fac050131dd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-23 17:56:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>start_date</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-23 17:56:36</sys_created_on>
+            <sys_id>457ba6a4c37093105ca93fac050131f3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_783736_onboard_0_equipment_request" sys_domain="global" view="Default view">da606e6cc3fc53105ca93fac050131dd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-23 17:56:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-23 17:56:36</sys_created_on>
+            <sys_id>017ba6a4c37093105ca93fac050131f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_783736_onboard_0_equipment_request" sys_domain="global" view="Default view">da606e6cc3fc53105ca93fac050131dd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-23 17:56:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>expedited_shipping</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-11-23 17:56:36</sys_created_on>
+            <sys_id>c97ba6a4c37093105ca93fac050131f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_783736_onboard_0_equipment_request" sys_domain="global" view="Default view">da606e6cc3fc53105ca93fac050131dd</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-11-23 17:56:36</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

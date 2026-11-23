@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>shipping_address</field>
+        <field_message/>
+        <field_message_type>none</field_message_type>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-23 18:03:06</sys_created_on>
+        <sys_id>a7cc6268c37093105ca93fac050131a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>shipping_address</sys_name>
+        <sys_package display_value="Onboarding Equipment Tracker" source="x_783736_onboard_0">775e1e68c3fc53105ca93fac050131df</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Onboarding Equipment Tracker">775e1e68c3fc53105ca93fac050131df</sys_scope>
+        <sys_update_name>sys_ui_policy_action_a7cc6268c37093105ca93fac050131a2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-23 18:03:06</sys_updated_on>
+        <table>x_783736_onboard_0_equipment_request</table>
+        <ui_policy display_value="Show and require shipping address for Remote or Hybrid">786ce228c37093105ca93fac050131e1</ui_policy>
+        <value/>
+        <value_action>ignore</value_action>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=a7cc6268c37093105ca93fac050131a2"/>
+</record_update>

@@ -21,6 +21,7 @@
                 <element inactive_on_update="false" label="Moderate" sequence="2" value="moderate"/>
             </choice>
         </element>
+        <element label="Expedited Shipping" max_length="40" name="expedited_shipping" type="boolean"/>
         <element choice="1" label="Work Location" max_length="40" name="work_location" type="choice">
             <choice>
                 <element inactive_on_update="false" label="From Home" sequence="2" value="from_home"/>
