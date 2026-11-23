@@ -24,7 +24,7 @@
         <element label="Expedited Shipping" max_length="40" name="expedited_shipping" type="boolean"/>
         <element choice="1" label="Work Location" max_length="40" name="work_location" type="choice">
             <choice>
-                <element inactive_on_update="false" label="From Home" sequence="2" value="from_home"/>
+                <element inactive_on_update="false" label="In Office" sequence="2" value="in_office"/>
                 <element inactive_on_update="false" label="Hybrid" sequence="1" value="hybrid"/>
                 <element inactive_on_update="false" label="Remote" sequence="0" value="remote"/>
             </choice>

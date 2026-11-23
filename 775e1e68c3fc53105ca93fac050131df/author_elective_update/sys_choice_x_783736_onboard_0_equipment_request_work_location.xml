@@ -58,19 +58,19 @@
             <element>work_location</element>
             <hint/>
             <inactive>false</inactive>
-            <label>From Home</label>
+            <label>In Office</label>
             <language>en</language>
             <name>x_783736_onboard_0_equipment_request</name>
             <sequence>2</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2026-11-23 17:19:40</sys_created_on>
+            <sys_created_on>2026-11-23 19:56:12</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2026-11-23 17:19:40</sys_updated_on>
-            <value>from_home</value>
+            <sys_updated_on>2026-11-23 19:56:12</sys_updated_on>
+            <value>in_office</value>
         </sys_choice>
     </sys_choice>
 </record_update>
