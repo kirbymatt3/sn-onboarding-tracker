@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-23 17:08:25</sys_created_on>
+        <sys_id>176022acc3fc53105ca93fac05013110</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_783736_onboard_0_equipment_request.x_783736_onboard_0.admin</sys_name>
+        <sys_package display_value="Onboarding Equipment Tracker" source="x_783736_onboard_0">775e1e68c3fc53105ca93fac050131df</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Onboarding Equipment Tracker">775e1e68c3fc53105ca93fac050131df</sys_scope>
+        <sys_security_acl display_value="x_783736_onboard_0_equipment_request">976022acc3fc53105ca93fac05013107</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_176022acc3fc53105ca93fac05013110</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-23 17:08:25</sys_updated_on>
+        <sys_user_role display_value="x_783736_onboard_0.admin" name="x_783736_onboard_0.admin">0c6e5e68c3fc53105ca93fac0501310c</sys_user_role>
+    </sys_security_acl_role>
+</record_update>
