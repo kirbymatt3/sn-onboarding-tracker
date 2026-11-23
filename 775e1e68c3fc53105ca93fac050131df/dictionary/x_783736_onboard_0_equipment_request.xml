@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="4a60ae6cc3fc53105ca93fac05013102" label="Equipment Request" max_length="40" name="x_783736_onboard_0_equipment_request" type="collection">
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="1" label="State" max_length="255" name="state" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Closed Complete" sequence="4" value="closed_complete"/>
+                <element inactive_on_update="false" label="Provisioning" sequence="2" value="provisioning"/>
+                <element inactive_on_update="false" label="Pending Approval" sequence="1" value="pending_approval"/>
+                <element inactive_on_update="false" label="Draft" sequence="0" value="draft"/>
+                <element inactive_on_update="false" label="Shipped" sequence="3" value="shipped"/>
+            </choice>
+        </element>
+        <element label="Shipping Address" max_length="500" name="shipping_address" type="string"/>
+        <element label="Work Notes" max_length="4000" name="work_notes" type="string"/>
+        <element label="New Hire" mandatory="true" max_length="32" name="new_hire" reference="sys_user" type="reference"/>
+        <element choice="1" label="Priority" max_length="40" name="priority" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="High" sequence="1" value="high"/>
+                <element inactive_on_update="false" label="Low" sequence="3" value="low"/>
+                <element inactive_on_update="false" label="Critical" sequence="0" value="critical"/>
+                <element inactive_on_update="false" label="Moderate" sequence="2" value="moderate"/>
+            </choice>
+        </element>
+        <element choice="1" label="Work Location" max_length="40" name="work_location" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="From Home" sequence="2" value="from_home"/>
+                <element inactive_on_update="false" label="Hybrid" sequence="1" value="hybrid"/>
+                <element inactive_on_update="false" label="Remote" sequence="0" value="remote"/>
+            </choice>
+        </element>
+        <element choice="1" label="Role Profile" max_length="40" name="role_profile" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Corporate" sequence="2" value="corporate"/>
+                <element inactive_on_update="false" label="Executive" sequence="3" value="executive"/>
+                <element inactive_on_update="false" label="Sales" sequence="1" value="sales"/>
+                <element inactive_on_update="false" label="Engineering" sequence="0" value="engineering"/>
+            </choice>
+        </element>
+        <element label="Short Description" max_length="160" name="short_description" type="string"/>
+        <element label="Start Date" mandatory="true" max_length="40" name="start_date" type="glide_date"/>
+        <element label="Assigned To" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="assigned_to"/>
+        </index>
+        <index name="index2">
+            <element name="new_hire"/>
+        </index>
+    </element>
+</database>
