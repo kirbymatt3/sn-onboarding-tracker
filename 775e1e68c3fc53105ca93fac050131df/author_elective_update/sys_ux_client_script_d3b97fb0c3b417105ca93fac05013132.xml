@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="DELETE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="List Menu Template Page">1fb97fb0c3b417105ca93fac05013104</macroponent>
+        <name>Refresh List</name>
+        <preset/>
+        <required_translations>[]</required_translations>
+        <script><![CDATA[function handler({
+      api,
+      event: {
+          payload,
+          payload: {
+              name,
+              value,
+              previousValue
+          }
+      },
+      helpers,
+      imports
+    }) {
+      
+      if (name === 'screen' &&
+          value.isActive != previousValue.isActive
+          && value.isActive
+          && api.state.hasRecordChanges) {
+            api.setState('hasRecordChanges', false);
+            api.data.list_controller.refreshRequested({
+                hideLoader: true
+            });     
+      }
+      if (name === 'activityLogs' && value && value.size > 0) {
+        const operationList = ['modified', 'updated', 'inserted', 'deleted', 'closed'];
+        // Transform "value" and get the latest entry
+        const map = Array.from(value).pop()[1];
+        const crudActivitiesLength = map.activities.get('crud').length;
+        if (crudActivitiesLength < 1)
+            return;
+        const {
+            operation,
+            sysId,
+            timestamp
+        } = map.activities.get('crud')[crudActivitiesLength - 1];
+        if (operationList.includes(operation) &&
+            sysId !== "-1" &&
+            !api.context.props.screen.isActive &&
+            !api.state.hasRecordChanges) {
+            api.setState('hasRecordChanges', true);
+        }
+    }
+    }]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-24 18:17:06</sys_created_on>
+        <sys_id>d3b97fb0c3b417105ca93fac05013132</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Refresh List</sys_name>
+        <sys_package display_value="Onboarding Equipment Tracker" source="x_783736_onboard_0">775e1e68c3fc53105ca93fac050131df</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Onboarding Equipment Tracker">775e1e68c3fc53105ca93fac050131df</sys_scope>
+        <sys_update_name>sys_ux_client_script_d3b97fb0c3b417105ca93fac05013132</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-24 18:17:06</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Onboarding Equipment Tracker">775e1e68c3fc53105ca93fac050131df</application>
+        <file_path/>
+        <instance_id>a34ae54aebadc3945a2dfceacad0cd12</instance_id>
+        <instance_name>dev408599</instance_name>
+        <name>sys_ux_client_script_d3b97fb0c3b417105ca93fac05013132</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ux_client_script"&gt;&lt;sys_ux_client_script action="INSERT_OR_UPDATE"&gt;&lt;controller_preset/&gt;&lt;includes/&gt;&lt;macroponent display_value="List Menu Template Page"&gt;1fb97fb0c3b417105ca93fac05013104&lt;/macroponent&gt;&lt;name&gt;Refresh List&lt;/name&gt;&lt;preset/&gt;&lt;required_translations&gt;[]&lt;/required_translations&gt;&lt;script&gt;&lt;![CDATA[function handler({
+      api,
+      event: {
+          payload,
+          payload: {
+              name,
+              value,
+              previousValue
+          }
+      },
+      helpers,
+      imports
+    }) {
+      
+      if (name === 'screen' &amp;&amp;
+          value.isActive != previousValue.isActive
+          &amp;&amp; value.isActive
+          &amp;&amp; api.state.hasRecordChanges) {
+            api.setState('hasRecordChanges', false);
+            api.data.list_controller.refreshRequested({
+                hideLoader: true
+            });     
+      }
+      if (name === 'activityLogs' &amp;&amp; value &amp;&amp; value.size &gt; 0) {
+        const operationList = ['modified', 'updated', 'inserted', 'deleted', 'closed'];
+        // Transform "value" and get the latest entry
+        const map = Array.from(value).pop()[1];
+        const crudActivitiesLength = map.activities.get('crud').length;
+        if (crudActivitiesLength &lt; 1)
+            return;
+        const {
+            operation,
+            sysId,
+            timestamp
+        } = map.activities.get('crud')[crudActivitiesLength - 1];
+        if (operationList.includes(operation) &amp;&amp;
+            sysId !== "-1" &amp;&amp;
+            !api.context.props.screen.isActive &amp;&amp;
+            !api.state.hasRecordChanges) {
+            api.setState('hasRecordChanges', true);
+        }
+    }
+    }]]&gt;&lt;/script&gt;&lt;script_api_version&gt;2.0.0&lt;/script_api_version&gt;&lt;sys_class_name&gt;sys_ux_client_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-11-24 18:17:06&lt;/sys_created_on&gt;&lt;sys_id&gt;d3b97fb0c3b417105ca93fac05013132&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;Refresh List&lt;/sys_name&gt;&lt;sys_package display_value="Onboarding Equipment Tracker" source="x_783736_onboard_0"&gt;775e1e68c3fc53105ca93fac050131df&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Onboarding Equipment Tracker"&gt;775e1e68c3fc53105ca93fac050131df&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ux_client_script_d3b97fb0c3b417105ca93fac05013132&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-11-24 18:17:06&lt;/sys_updated_on&gt;&lt;target&gt;macroponent&lt;/target&gt;&lt;type&gt;default&lt;/type&gt;&lt;/sys_ux_client_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1304678501</payload_hash>
+        <record_name>Refresh List</record_name>
+        <reverted_from/>
+        <source>bedf9e2cc3fc53105ca93fac05013181</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-24 18:17:06</sys_created_on>
+        <sys_id>9fb97fb0c3b417105ca93fac05013136</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a20ec69ab90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-24 18:17:06</sys_updated_on>
+        <type>UX Client Script</type>
+        <update_guid>1fb97fb020b4171083695f495dc54435</update_guid>
+        <update_guid_history>1fb97fb020b4171083695f495dc54435:-1304678501</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-24 18:24:05</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_client_script">sys_ux_client_script</sys_db_object>
+        <sys_id>2a5508565e354eb8bf99f107d914b289</sys_id>
+        <sys_metadata>d3b97fb0c3b417105ca93fac05013132</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Refresh List</sys_name>
+        <sys_package display_value="Onboarding Equipment Tracker" source="x_783736_onboard_0">775e1e68c3fc53105ca93fac050131df</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Onboarding Equipment Tracker">775e1e68c3fc53105ca93fac050131df</sys_scope>
+        <sys_scope_delete display_value="">025bd3ca8d6c4af3816eb62470535821</sys_scope_delete>
+        <sys_update_name>sys_ux_client_script_d3b97fb0c3b417105ca93fac05013132</sys_update_name>
+        <sys_update_version display_value="sys_ux_client_script_d3b97fb0c3b417105ca93fac05013132">9fb97fb0c3b417105ca93fac05013136</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-24 18:24:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

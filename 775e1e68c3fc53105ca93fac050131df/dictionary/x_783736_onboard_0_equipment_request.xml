@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="4a60ae6cc3fc53105ca93fac05013102" label="Equipment Request" max_length="40" name="x_783736_onboard_0_equipment_request" type="collection">
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element choice="1" label="State" max_length="255" name="state" type="choice">
+        <element choice="1" default="draft" label="State" mandatory="true" max_length="255" name="state" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Closed Complete" sequence="4" value="closed_complete"/>
                 <element inactive_on_update="false" label="Provisioning" sequence="2" value="provisioning"/>
@@ -27,6 +27,15 @@
                 <element inactive_on_update="false" label="In Office" sequence="2" value="in_office"/>
                 <element inactive_on_update="false" label="Hybrid" sequence="1" value="hybrid"/>
                 <element inactive_on_update="false" label="Remote" sequence="0" value="remote"/>
+            </choice>
+        </element>
+        <element choice="3" default="new" label="Status" mandatory="true" max_length="40" name="status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Completed" sequence="3" value="completed"/>
+                <element inactive_on_update="false" label="In Progress" sequence="1" value="in_progress"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="4" value="cancelled"/>
+                <element inactive_on_update="false" label="New" sequence="0" value="new"/>
+                <element inactive_on_update="false" label="Shipped" sequence="2" value="shipped"/>
             </choice>
         </element>
         <element choice="1" label="Role Profile" max_length="40" name="role_profile" type="choice">
