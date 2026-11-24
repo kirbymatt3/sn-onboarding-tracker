@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_tab">
+    <par_dashboard_tab action="DELETE">
+        <active>true</active>
+        <background_color/>
+        <dashboard display_value="Onboarding Equipment Overview">6dbfd7f0c3f017105ca93fac05013119</dashboard>
+        <name>New Tab 2</name>
+        <order>0</order>
+        <sys_class_name>par_dashboard_tab</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-24 16:23:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6dbf9734c3f017105ca93fac050131df</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Tab 2</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Onboarding Equipment Tracker" source="x_783736_onboard_0">775e1e68c3fc53105ca93fac050131df</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Onboarding Equipment Tracker">775e1e68c3fc53105ca93fac050131df</sys_scope>
+        <sys_update_name>par_dashboard_tab_6dbf9734c3f017105ca93fac050131df</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-24 16:23:24</sys_updated_on>
+    </par_dashboard_tab>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Onboarding Equipment Tracker">775e1e68c3fc53105ca93fac050131df</application>
+        <file_path/>
+        <instance_id>a34ae54aebadc3945a2dfceacad0cd12</instance_id>
+        <instance_name>dev408599</instance_name>
+        <name>par_dashboard_tab_6dbf9734c3f017105ca93fac050131df</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_tab"><par_dashboard_tab action="INSERT_OR_UPDATE"><active>true</active><background_color/><dashboard display_value="Onboarding Equipment Overview">6dbfd7f0c3f017105ca93fac05013119</dashboard><name>New Tab 2</name><order>0</order><sys_class_name>par_dashboard_tab</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-24 16:23:24</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>6dbf9734c3f017105ca93fac050131df</sys_id><sys_mod_count>0</sys_mod_count><sys_name>New Tab 2</sys_name><sys_overrides/><sys_package display_value="Onboarding Equipment Tracker" source="x_783736_onboard_0">775e1e68c3fc53105ca93fac050131df</sys_package><sys_policy/><sys_scope display_value="Onboarding Equipment Tracker">775e1e68c3fc53105ca93fac050131df</sys_scope><sys_update_name>par_dashboard_tab_6dbf9734c3f017105ca93fac050131df</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-24 16:23:24</sys_updated_on></par_dashboard_tab></record_update>]]></payload>
+        <payload_hash>1094287150</payload_hash>
+        <record_name>New Tab 2</record_name>
+        <reverted_from/>
+        <source>bedf9e2cc3fc53105ca93fac05013181</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-24 16:23:24</sys_created_on>
+        <sys_id>25bf9734c3f017105ca93fac050131f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a20e5e81250000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-24 16:23:24</sys_updated_on>
+        <type>PAR Dashboard Tab</type>
+        <update_guid>a1bf9734d1f01710e70d4c1e052f10f0</update_guid>
+        <update_guid_history>a1bf9734d1f01710e70d4c1e052f10f0:1094287150</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="New Tab 2">2ce4af7cc3f017105ca93fac05013143</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-24 16:45:59</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_tab">par_dashboard_tab</sys_db_object>
+        <sys_id>0f3aefbfb0df473b97e45818c7096291</sys_id>
+        <sys_metadata>6dbf9734c3f017105ca93fac050131df</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Tab 2</sys_name>
+        <sys_package display_value="Onboarding Equipment Tracker" source="x_783736_onboard_0">775e1e68c3fc53105ca93fac050131df</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Onboarding Equipment Tracker">775e1e68c3fc53105ca93fac050131df</sys_scope>
+        <sys_scope_delete display_value="">025bd3ca8d6c4af3816eb62470535821</sys_scope_delete>
+        <sys_update_name>par_dashboard_tab_6dbf9734c3f017105ca93fac050131df</sys_update_name>
+        <sys_update_version display_value="par_dashboard_tab_6dbf9734c3f017105ca93fac050131df">25bf9734c3f017105ca93fac050131f1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-24 16:45:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
