@@ -22,7 +22,7 @@
         <query/>
         <report/>
         <require_confirmation>true</require_confirmation>
-        <roles/>
+        <roles>x_783736_onboard_0.fullfiller</roles>
         <route/>
         <screen/>
         <sys_class_name>sys_app_module</sys_class_name>
@@ -31,7 +31,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>77d9b7ecc37893105ca93fac05013178</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>My Open Requests</sys_name>
         <sys_overrides/>
         <sys_package display_value="Onboarding Equipment Tracker" source="x_783736_onboard_0">775e1e68c3fc53105ca93fac050131df</sys_package>
@@ -39,7 +39,7 @@
         <sys_scope display_value="Onboarding Equipment Tracker">775e1e68c3fc53105ca93fac050131df</sys_scope>
         <sys_update_name>sys_app_module_77d9b7ecc37893105ca93fac05013178</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-11-23 23:41:04</sys_updated_on>
+        <sys_updated_on>2026-11-24 00:33:05</sys_updated_on>
         <timeline_page/>
         <title>My Open Requests</title>
         <uncancelable>false</uncancelable>
