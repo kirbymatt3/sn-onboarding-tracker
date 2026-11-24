@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_user_metadata">
+    <par_dashboard_user_metadata action="DELETE">
+        <background_color/>
+        <cache_expiration_time>24</cache_expiration_time>
+        <card_bg_image/>
+        <created_by_user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</created_by_user>
+        <created_on>2026-11-24 16:23:23</created_on>
+        <dashboard display_value="Onboarding Equipment Overview">6dbfd7f0c3f017105ca93fac05013119</dashboard>
+        <edit_locked>{"sysId":"6816f79cc0a8016401c5a33be04be441","name":"System Administrator","avatar":"a5d3c898c3222010ae17dd981840dd8b.iix?t=small","lockedOn":"1795538370637"}</edit_locked>
+        <enable_data_cache>false</enable_data_cache>
+        <include_custom_insights>true</include_custom_insights>
+        <include_insight_sentiment>false</include_insight_sentiment>
+        <include_key_contributors>true</include_key_contributors>
+        <include_kpi_signals>true</include_kpi_signals>
+        <include_predictive_target>true</include_predictive_target>
+        <include_predictive_thresholds>true</include_predictive_thresholds>
+        <include_process_mining>true</include_process_mining>
+        <include_severity>true</include_severity>
+        <include_target>true</include_target>
+        <include_thresholds>true</include_thresholds>
+        <include_trends>true</include_trends>
+        <include_widget_notification>true</include_widget_notification>
+        <last_deactivated_on/>
+        <last_updated_on>2026-11-24 16:29:23</last_updated_on>
+        <po_project_id_list>[]</po_project_id_list>
+        <refresh_information>false</refresh_information>
+        <refresh_interval>-1</refresh_interval>
+        <requested_by_user/>
+        <schedule_repetition>false</schedule_repetition>
+        <show_ai_insights_panel>false</show_ai_insights_panel>
+        <show_ai_summary>true</show_ai_summary>
+        <show_insights_panel>true</show_insights_panel>
+        <sys_class_name>par_dashboard_user_metadata</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-24 16:23:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6dbf9734c3f017105ca93fac050131ca</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Onboarding Equipment Tracker" source="x_783736_onboard_0">775e1e68c3fc53105ca93fac050131df</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Onboarding Equipment Tracker">775e1e68c3fc53105ca93fac050131df</sys_scope>
+        <sys_update_name>par_dashboard_user_metadata_6dbf9734c3f017105ca93fac050131ca</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-24 16:39:30</sys_updated_on>
+        <updated_by_user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</updated_by_user>
+        <use_custom_tab_colors>false</use_custom_tab_colors>
+        <widgets_margin>$now-global-space--sm</widgets_margin>
+    </par_dashboard_user_metadata>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Onboarding Equipment Tracker">775e1e68c3fc53105ca93fac050131df</application>
+        <file_path/>
+        <instance_id>a34ae54aebadc3945a2dfceacad0cd12</instance_id>
+        <instance_name>dev408599</instance_name>
+        <name>par_dashboard_user_metadata_6dbf9734c3f017105ca93fac050131ca</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_user_metadata"><par_dashboard_user_metadata action="INSERT_OR_UPDATE"><background_color/><cache_expiration_time>24</cache_expiration_time><card_bg_image/><created_by_user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</created_by_user><created_on>2026-11-24 16:23:23</created_on><dashboard display_value="Onboarding Equipment Overview">6dbfd7f0c3f017105ca93fac05013119</dashboard><edit_locked>{"sysId":"6816f79cc0a8016401c5a33be04be441","name":"System Administrator","avatar":"a5d3c898c3222010ae17dd981840dd8b.iix?t=small","lockedOn":"1795538370637"}</edit_locked><enable_data_cache>false</enable_data_cache><include_custom_insights>true</include_custom_insights><include_insight_sentiment>false</include_insight_sentiment><include_key_contributors>true</include_key_contributors><include_kpi_signals>true</include_kpi_signals><include_predictive_target>true</include_predictive_target><include_predictive_thresholds>true</include_predictive_thresholds><include_process_mining>true</include_process_mining><include_severity>true</include_severity><include_target>true</include_target><include_thresholds>true</include_thresholds><include_trends>true</include_trends><include_widget_notification>true</include_widget_notification><last_deactivated_on/><last_updated_on>2026-11-24 16:29:23</last_updated_on><po_project_id_list>[]</po_project_id_list><refresh_information>false</refresh_information><refresh_interval>-1</refresh_interval><requested_by_user/><schedule_repetition>false</schedule_repetition><show_ai_insights_panel>false</show_ai_insights_panel><show_ai_summary>true</show_ai_summary><show_insights_panel>true</show_insights_panel><sys_class_name>par_dashboard_user_metadata</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-11-24 16:23:23</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>6dbf9734c3f017105ca93fac050131ca</sys_id><sys_mod_count>9</sys_mod_count><sys_name/><sys_overrides/><sys_package display_value="Onboarding Equipment Tracker" source="x_783736_onboard_0">775e1e68c3fc53105ca93fac050131df</sys_package><sys_policy/><sys_scope display_value="Onboarding Equipment Tracker">775e1e68c3fc53105ca93fac050131df</sys_scope><sys_update_name>par_dashboard_user_metadata_6dbf9734c3f017105ca93fac050131ca</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-11-24 16:39:30</sys_updated_on><updated_by_user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</updated_by_user><use_custom_tab_colors>false</use_custom_tab_colors><widgets_margin>$now-global-space--sm</widgets_margin></par_dashboard_user_metadata></record_update>]]></payload>
+        <payload_hash>625112239</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>bedf9e2cc3fc53105ca93fac05013181</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-24 16:39:30</sys_created_on>
+        <sys_id>a963a3f8c3f017105ca93fac050131f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1a20e6d40950000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-24 16:39:30</sys_updated_on>
+        <type>PAR Dashboard Metadata</type>
+        <update_guid>2963a3f82ef0171012ddd59fd7d844f7</update_guid>
+        <update_guid_history>2963a3f82ef0171012ddd59fd7d844f7:625112239,6d63a3f861f01710b7111d714c8449ee:-98055220,5782eb78e7f01710284b72e0242f98bc:1544774616,b881aff4e8f0171021986d745f9ff0a9:247439522,b081aff44ff01710cd82b5b40b4ae0a1:595823645,4c21e3f4aaf01710075bb472c33627b3:1544774616,9d11a3f4d1f017106658311c517c613c:-1409067895,2ae06fb4a3f0171078796b20e2140054:-1952637532,b850eb74f3f01710406cfc8953fcc91b:1279961635,69bf973448f0171024293dcf190afbd2:1645983871</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">ece4af7cc3f017105ca93fac05013179</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-24 16:45:59</sys_created_on>
+        <sys_db_object display_value="" name="par_dashboard_user_metadata">par_dashboard_user_metadata</sys_db_object>
+        <sys_id>2b6bb12c4dbb4cac8988b1e5d302ac90</sys_id>
+        <sys_metadata>6dbf9734c3f017105ca93fac050131ca</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Onboarding Equipment Tracker" source="x_783736_onboard_0">775e1e68c3fc53105ca93fac050131df</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Onboarding Equipment Tracker">775e1e68c3fc53105ca93fac050131df</sys_scope>
+        <sys_scope_delete display_value="">025bd3ca8d6c4af3816eb62470535821</sys_scope_delete>
+        <sys_update_name>par_dashboard_user_metadata_6dbf9734c3f017105ca93fac050131ca</sys_update_name>
+        <sys_update_version display_value="par_dashboard_user_metadata_6dbf9734c3f017105ca93fac050131ca">a963a3f8c3f017105ca93fac050131f8</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-24 16:45:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

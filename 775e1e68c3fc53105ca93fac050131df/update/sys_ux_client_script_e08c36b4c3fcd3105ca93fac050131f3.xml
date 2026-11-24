@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <controller_preset/>
+        <includes/>
+        <macroponent display_value="Home default">908c36b4c3fcd3105ca93fac050131bd</macroponent>
+        <name>URL params update handler</name>
+        <preset/>
+        <required_translations>[]</required_translations>
+        <script><![CDATA[/**
+ * @param {params} params
+ * @param {api} params.api
+ * @param {any} params.event
+ * @param {any} params.imports
+ * @param {ApiHelpers} params.helpers
+ */
+function handler({
+    api,
+    event
+}) {
+    const {
+        urlParams
+    } = event.payload;
+    // Extract flat params and detect isNewTab
+    const params = {};
+    let isNewTab = false;
+    for (const [key, paramInfo] of Object.entries(urlParams)) {
+        if (key === 'sysId') {
+            if (paramInfo.isNewTab === true) {
+                api.emit('NAV_ITEM_SELECTED', {
+                    route: 'dashboards',
+                    title: paramInfo.dashboardName || paramInfo.value,
+                    params: {
+                        sysId: paramInfo.value
+                    },
+                    navigationOptions: {
+                        navigateExternal: true,
+                        target: '_blank',
+                    },
+                });
+            } else {
+                api.emit('CONTENT_UPDATED', {
+                    route: 'dashboards',
+                    title: paramInfo.dashboardName || paramInfo.value,
+                    params: {
+                        sysId: paramInfo.value
+                    },
+                });
+            }
+            return;
+        }
+        api.emit('CONTENT_UPDATED', {
+            route: 'dashboards',
+            params: {
+                [key]: paramInfo.value
+            }
+        });
+    }
+
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-11-24 13:49:35</sys_created_on>
+        <sys_id>e08c36b4c3fcd3105ca93fac050131f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>URL params update handler</sys_name>
+        <sys_package display_value="Onboarding Equipment Tracker" source="x_783736_onboard_0">775e1e68c3fc53105ca93fac050131df</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Onboarding Equipment Tracker">775e1e68c3fc53105ca93fac050131df</sys_scope>
+        <sys_update_name>sys_ux_client_script_e08c36b4c3fcd3105ca93fac050131f3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-11-24 13:49:35</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>
